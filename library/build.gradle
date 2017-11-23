@@ -1,15 +1,13 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 26
-
-
-
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "0.1.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -28,4 +26,14 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     provided 'com.android.support:appcompat-v7:26.1.0'
+}
+
+publish {
+    groupId = 'com.github.MarinaShaposhnikova'
+    artifactId = 'library'
+    publishVersion = '0.1.1'
+    desc = 'A small library for display some images in perfect order from one to four and again.'
+    licences = ['Apache-2.0']
+    uploadName='OnetoFouragain'
+    website = 'https://github.com/MarinaShaposhnikova/OnetoFouragain.git'
 }
