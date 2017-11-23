@@ -8,7 +8,7 @@ from one to four and again.
 <img src="screenshots/sample.png?raw=true" alt="" width="240"/>
 
 ## Usage
-###Create a layout in xml, give it the dimensions and count of images
+### Create a layout in xml, give it the dimensions and count of images
 ```xml
     <com.meier.marina.library.OnetoFouragainLayout
       android:id="@+id/layout"
@@ -18,13 +18,13 @@ from one to four and again.
      app:countImages="5"/>
 ```
 
-###Also you can set count of images dynamically
+### Also you can set count of images dynamically
 ```java
     OnetoFouragainLayout layout = findViewById(R.id.layout);
     layout.setSize(5);
 ```
 
-####You can get all imageViews and do everything with them
+#### You can get all imageViews and do everything with them
 ```java
     for (ImageView image : layout.getImages()) {
         image.setBackgroundColor(Color.parseColor("800000"));
