@@ -1,11 +1,11 @@
-package com.meier.marina.onetofouragain;
+package com.meier.marina.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.meier.marina.library.OnetoFouragainLayout;
+import com.meier.marina.onetofouragain.OnetoFouragainLayout;
 
 import java.util.ArrayList;
 import java.util.List;

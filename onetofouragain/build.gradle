@@ -6,8 +6,8 @@ ext {
     bintrayName = 'OnetoFouragain'
 
     publishedGroupId = 'com.github.MarinaShaposhnikova'
-    libraryName = 'OnetoFouragain'
-    artifact = 'OnetoFouragain'
+    libraryName = 'onetofouragain'
+    artifact = 'onetofouragain'
 
     libraryDescription = 'A small library for display some images in perfect order from one to four and again.'
 
