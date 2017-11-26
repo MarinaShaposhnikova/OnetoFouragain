@@ -72,7 +72,7 @@ public class OnetoFouragainLayout extends LinearLayout {
     }
 
     private void handleSize() {
-        if (size == 0) throw new EmptySizeException();
+        if (size == 0) return;
         int condition = MAX_COUNT;
         int temporarySize = size;
         for (int i = 0; i < size; i += condition) {
