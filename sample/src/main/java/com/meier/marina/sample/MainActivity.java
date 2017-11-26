@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < layout.getImages().size(); i++) {
             layout.getImages().get(i).setScaleType(ImageView.ScaleType.CENTER_CROP);
+            layout.getImages().get(i).setPadding(8, 8, 8, 8);
             Glide.with(this)
                     .load(imagesUrls.get(i))
                     .into(layout.getImages().get(i));

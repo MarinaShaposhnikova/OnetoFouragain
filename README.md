@@ -8,14 +8,22 @@ from one to four and again.
 <img src="screenshots/sample.png?raw=true" alt="" width="240"/>
 
 ## Usage
+
+### Add dependency
+```groovy
+    dependencies {
+        compile 'com.github.MarinaShaposhnikova:onetofouragain:1.0.0'
+    }
+```
+
 ### Create a layout in xml, give it the dimensions and count of images
 ```xml
     <com.meier.marina.library.OnetoFouragainLayout
-      android:id="@+id/layout"
-      android:layout_width="match_parent"
-     android:layout_height="300dp"
-     android:orientation="vertical"
-     app:countImages="5"/>
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        app:countImages="5"/>
 ```
 
 ### Also you can set count of images dynamically
@@ -32,7 +40,7 @@ from one to four and again.
 ```
 
 
-See [sample](sample/src/main/java/com/onetofouragain/MainActivity.java).
+See [sample](sample/src/main/java/com/sample/MainActivity.java).
 
 License
 -----
